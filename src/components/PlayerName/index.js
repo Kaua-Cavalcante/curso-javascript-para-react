@@ -1,10 +1,10 @@
 import './style.css';
 
-function PlayerName(){
+function PlayerName(content){
     return`
-        <h1 class="player">
-            player
-        </h1>
+        <p class="player">
+            ${content}
+        </p>
     `
 }
 
