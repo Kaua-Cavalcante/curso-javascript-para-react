@@ -5,7 +5,7 @@ import PlayerName from './src/components/PlayerName';
 import BoardGame from './src/objects/BoardGame';
 
 const $root = document.querySelector("#root");
-const $htmlBoardGame = BoardGame(5);
+const $htmlBoardGame = BoardGame(6);
 const $htmlPlayerName = PlayerName();
 
 $root.insertAdjacentHTML("beforeend", $htmlPlayerName);
