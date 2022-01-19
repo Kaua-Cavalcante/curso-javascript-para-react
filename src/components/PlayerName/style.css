@@ -1,0 +1,7 @@
+.player {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 14px;
+    color: var(--clr-white);
+
+    padding: 10px;
+}
