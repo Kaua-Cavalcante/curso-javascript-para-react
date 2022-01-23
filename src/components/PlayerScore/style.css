@@ -1,0 +1,14 @@
+.player-score {
+    display: flex;
+    width: 50px;
+    height: 17px;
+    border: 2px solid var(--clr-pink);
+    background-color: var(--clr-silver);
+}
+
+.player-score .score {
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    border: 1px solid var(--clr-white);
+}
