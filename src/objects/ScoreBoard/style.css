@@ -3,3 +3,13 @@
     align-items: center;
     justify-content: space-between;
 }
+
+.score-board .score-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.score-board .-score-container-player2 {
+    flex-direction: row-reverse;
+}

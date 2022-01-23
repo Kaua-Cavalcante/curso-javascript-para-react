@@ -1,11 +1,18 @@
-import './style.css'
-import PlayerName from '../../components/PlayerName'
+import "./style.css";
+import PlayerName from "../../components/PlayerName";
+import PlayerScore from "../../components/PlayerScore";
+import PlayerVersus from "../../components/PlayerVersus";
 
 function ScoreBoard() {
-    return `
+  return `
         <header class="score-board">  
-            ${PlayerName("Player1")}
-            ${PlayerName("Player2")}
+            <div class="score-container">
+                ${PlayerName("Player1")} ${PlayerScore()}
+            </div>
+            ${PlayerVersus()}
+            <div class="score-container -score-container-player2">
+                ${PlayerName("Player2")} ${PlayerScore()}
+            </div>
         </header>
     `;
 }
