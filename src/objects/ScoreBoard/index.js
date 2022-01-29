@@ -10,11 +10,11 @@ function ScoreBoard() {
         <header class="score-board">  
         
             <div class="score-container">
-                ${PlayerName("Player1")} ${PlayerScore()}
+                ${PlayerName("Player1")} ${PlayerScore(1)}
             </div>
             ${PlayerVersus()}
             <div class="score-container -score-container-player2">
-                ${PlayerName("Player2")} ${PlayerScore()}
+                ${PlayerName("Player2")} ${PlayerScore(2)}
             </div>
         </header>
     `;

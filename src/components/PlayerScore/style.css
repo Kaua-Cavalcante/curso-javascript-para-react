@@ -6,9 +6,25 @@
     background-color: var(--clr-silver);
 }
 
-.player-score .score {
+.player-score > .score {
     box-sizing: border-box;
     height: 100%;
     width: 100%;
     border: 1px solid var(--clr-white);
+}
+
+.player-score[data-points="1"] > .score:first-child {
+    background-color: var(--clr-green);
+}
+
+.player-score[data-points="2"] {
+    flex-direction: row-reverse;
+}
+
+.player-score[data-points="2"] > .score:nth-child(n+2) {
+    background-color: var(--clr-green);
+}
+
+.player-score[data-points="3"] > .score {
+    background-color: var(--clr-green);
 }
