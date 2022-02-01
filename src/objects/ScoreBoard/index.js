@@ -6,9 +6,9 @@ import PlayerVersus from "../../components/PlayerVersus";
 
 function ScoreBoard() {
   return `
-  ${PlayerTurn()}
+  
         <header class="score-board">  
-        
+            ${PlayerTurn(2)}
             <div class="score-container">
                 ${PlayerName("Player1")} ${PlayerScore(1)}
             </div>

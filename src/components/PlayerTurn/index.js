@@ -1,10 +1,8 @@
 import './style.css';
 
-function PlayerTurn() {
+function PlayerTurn(currentPlayer = 1) {
     return `
-        <div class="player-turn">
-            <img src="images/arrow-down.svg" alt="Seta para baixo">
-        </div>
+            <img class="player-turn" data-currentPlayer="${currentPlayer}" src="images/arrow-down.svg" alt="Seta para baixo">
     `;
 }
 

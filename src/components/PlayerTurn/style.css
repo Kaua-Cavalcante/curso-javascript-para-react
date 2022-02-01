@@ -1,0 +1,10 @@
+.player-turn {
+    position: absolute;
+    top: 4px;
+    transform: translateX(10.7rem);
+    transition: .3s ease-in;
+}
+
+.player-turn[data-currentPlayer="2"] {
+    transform: translateX(19.3rem);
+}
